@@ -1,0 +1,330 @@
+--- INICIO:favoritos ---
+[
+  {
+    "_id": "6aa20dc2cfa10fee26aec9a8",
+    "apunte_id": "6aa20cc0cfa10fee26aec9a4",
+    "usuario_id": "6aa20c398081fab17c899327"
+  }
+]
+--- FIN:favoritos ---
+--- INICIO:apuntes ---
+[
+  {
+    "_id": "6ad266fd80872c9bf52c2ad2",
+    "indexes": [
+      {
+        "v": 2,
+        "key": {
+          "_id": 1
+        },
+        "name": "_id_"
+      }
+    ],
+    "uuid": "94cd310be08a4d7086ee552b290c3aed",
+    "collectionName": "apuntes",
+    "type": "collection"
+  },
+  {
+    "_id": "6aa20cc0cfa10fee26aec9a4",
+    "titulo": "Introducción a la programación",
+    "contenido": "La programación es el proceso de crear instrucciones que permiten a un computador realizar diferentes tareas.",
+    "usuario_id": "6aa20c398081fab17c899327",
+    "materia_id": "6aa20a9ccfa10fee26aec9a1",
+    "metodologia_id": "6aa1fd7bcfa10fee26aec990",
+    "etiquetas": [
+      "programación",
+      "conceptos",
+      "software"
+    ],
+    "fecha_publicacion": "2026-09-10T01:49:52.332Z",
+    "estado": "publicado"
+  },
+  {
+    "_id": "6ad29ae65d2c6b5168cbb6c1",
+    "titulo": "Resumen Guía API REST Node.js",
+    "contenido": "Conceptos clave sobre métodos HTTP, Express y persistencia con MongoDB.",
+    "usuario_id": "6aa20c398081fab17c899327",
+    "materia_id": "6aa20a9ccfa10fee26aec9a1",
+    "metodologia_id": "6aa1fd7bcfa10fee26aec990",
+    "etiquetas": [
+      "programacion",
+      "backend",
+      "nodejs"
+    ],
+    "estado": "publicado",
+    "createdAt": "2026-10-16T21:45:10.938Z",
+    "updatedAt": "2026-10-16T21:45:10.938Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ad29aea5d2c6b5168cbb6c2",
+    "titulo": "Resumen Guía API REST Node.js",
+    "contenido": "Conceptos clave sobre métodos HTTP y ruteo.",
+    "usuario_id": "6aa20c398081fab17c899327",
+    "materia_id": "6aa20a9ccfa10fee26aec9a1",
+    "metodologia_id": "6aa1fd7bcfa10fee26aec990",
+    "etiquetas": [
+      "backend",
+      "nodejs"
+    ],
+    "estado": "publicado",
+    "createdAt": "2026-10-16T21:45:14.385Z",
+    "updatedAt": "2026-10-16T21:45:14.385Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ad29b0d5d2c6b5168cbb6c3",
+    "titulo": "Resumen Guía API REST Node.js",
+    "contenido": "Conceptos clave sobre métodos HTTP y ruteo.",
+    "usuario_id": "6aa20c398081fab17c899327",
+    "materia_id": "6aa20a9ccfa10fee26aec9a1",
+    "metodologia_id": "6aa1fd7bcfa10fee26aec990",
+    "etiquetas": [
+      "backend",
+      "nodejs"
+    ],
+    "estado": "publicado",
+    "createdAt": "2026-10-16T21:45:49.014Z",
+    "updatedAt": "2026-10-16T21:45:49.014Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ad29d7ffcfbbe2ba9848301",
+    "titulo": "Apunte de Prueba para Moderación",
+    "contenido": "Este es un contenido de prueba para cambiar su estado.",
+    "usuario_id": "6aa20c398081fab17c899327",
+    "materia_id": "6aa20a9ccfa10fee26aec9a1",
+    "etiquetas": [],
+    "estado": "oculto",
+    "createdAt": "2026-10-16T21:56:15.339Z",
+    "updatedAt": "2026-10-16T22:11:51.084Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ad29e95c2ce2728ef884baf",
+    "titulo": "Apunte de Prueba para Moderación",
+    "contenido": "Este es un contenido de prueba para cambiar su estado.",
+    "usuario_id": "6aa20c398081fab17c899327",
+    "materia_id": "6aa20a9ccfa10fee26aec9a1",
+    "etiquetas": [],
+    "estado": "publicado",
+    "createdAt": "2026-10-16T22:00:53.524Z",
+    "updatedAt": "2026-10-16T22:00:53.524Z",
+    "__v": 0
+  }
+]
+--- FIN:apuntes ---
+--- INICIO:reportes ---
+[
+  {
+    "_id": "6aa20dd0cfa10fee26aec9a9",
+    "apunte_id": "6aa20cc0cfa10fee26aec9a4",
+    "usuario_id": "6aa20c398081fab17c899327",
+    "motivo": "Contenido inapropiado",
+    "descripcion": "El contenido no corresponde con la materia.",
+    "estado": "pendiente",
+    "fecha": "2026-09-10T01:54:24.044Z"
+  },
+  {
+    "_id": "6ad29c91b41c9530034a889b",
+    "apunte_id": "6aa20cc0cfa10fee26aec9a4",
+    "reportado_por_id": "6aa20c398081fab17c899327",
+    "motivo": "informacion_incorrecta",
+    "descripcion": "El apunte tiene errores en la sección de ruteo.",
+    "estado": "pendiente",
+    "createdAt": "2026-10-16T21:52:17.971Z",
+    "updatedAt": "2026-10-16T21:52:17.971Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ad29e9fc2ce2728ef884bb1",
+    "apunte_id": "6aa20cc0cfa10fee26aec9a4",
+    "reportado_por_id": "6aa20c398081fab17c899327",
+    "motivo": "informacion_incorrecta",
+    "descripcion": "El apunte tiene errores en la sección de ruteo.",
+    "estado": "pendiente",
+    "createdAt": "2026-10-16T22:01:03.096Z",
+    "updatedAt": "2026-10-16T22:01:03.096Z",
+    "__v": 0
+  }
+]
+--- FIN:reportes ---
+--- INICIO:metodologias ---
+[
+  {
+    "_id": "6aa1fd7bcfa10fee26aec98f",
+    "nombre": "Resumen",
+    "descripcion": "Sintetizar la información principal de un tema.",
+    "caracteristicas": [
+      "texto extenso",
+      "ideas principales",
+      "conceptos"
+    ]
+  },
+  {
+    "_id": "6aa1fd7bcfa10fee26aec990",
+    "nombre": "Mapa conceptual",
+    "descripcion": "Organizar visualmente conceptos y relaciones entre ellos.",
+    "caracteristicas": [
+      "conceptos",
+      "relaciones",
+      "ideas principales"
+    ]
+  },
+  {
+    "_id": "6aa1fd7bcfa10fee26aec991",
+    "nombre": "Flashcards",
+    "descripcion": "Utilizar preguntas y respuestas para facilitar la memorización.",
+    "caracteristicas": [
+      "definiciones",
+      "conceptos",
+      "memorizacion"
+    ]
+  },
+  {
+    "_id": "6aa1fd7bcfa10fee26aec992",
+    "nombre": "Práctica de ejercicios",
+    "descripcion": "Aprender mediante la resolución de ejercicios y problemas.",
+    "caracteristicas": [
+      "ejercicios",
+      "problemas",
+      "formulas",
+      "procedimientos"
+    ]
+  },
+  {
+    "_id": "6aa1fd7bcfa10fee26aec993",
+    "nombre": "Preguntas y respuestas",
+    "descripcion": "Estudiar mediante preguntas relacionadas con el contenido.",
+    "caracteristicas": [
+      "preguntas",
+      "respuestas",
+      "conceptos"
+    ]
+  }
+]
+--- FIN:metodologias ---
+--- INICIO:materias ---
+[
+  {
+    "_id": "6aa20a9ccfa10fee26aec9a1",
+    "nombre": "Programación",
+    "programa_id": "6aa20990cfa10fee26aec9a0",
+    "semestre": 1,
+    "estado": "activa"
+  },
+  {
+    "_id": "6aa20a9ccfa10fee26aec9a2",
+    "nombre": "Bases de Datos",
+    "programa_id": "6aa20990cfa10fee26aec9a0",
+    "semestre": 2,
+    "estado": "activa"
+  },
+  {
+    "_id": "6aa20a9ccfa10fee26aec9a3",
+    "nombre": "Matemáticas",
+    "programa_id": "6aa20990cfa10fee26aec9a0",
+    "semestre": 1,
+    "estado": "activa"
+  }
+]
+--- FIN:materias ---
+--- INICIO:calificaciones ---
+[
+  {
+    "_id": "6aa20db3cfa10fee26aec9a7",
+    "apunte_id": "6aa20cc0cfa10fee26aec9a4",
+    "usuario_id": "6aa20c398081fab17c899327",
+    "puntuacion": 5
+  }
+]
+--- FIN:calificaciones ---
+--- INICIO:comentarios ---
+[
+  {
+    "_id": "6aa20da1cfa10fee26aec9a6",
+    "apunte_id": "6aa20cc0cfa10fee26aec9a4",
+    "usuario_id": "6aa20c398081fab17c899327",
+    "contenido": "Este apunte me ayudó bastante para entender el tema.",
+    "fecha": "2026-09-10T01:53:37.444Z"
+  },
+  {
+    "_id": "6ad29bf9ff631ad0486f2344",
+    "apunte_id": "6aa20cc0cfa10fee26aec9a4",
+    "usuario_id": "6aa20c398081fab17c899327",
+    "contenido": "Este apunte me ayudó bastante para entender el tema.",
+    "createdAt": "2026-10-16T21:49:45.251Z",
+    "updatedAt": "2026-10-16T21:49:45.251Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ad29e9ac2ce2728ef884bb0",
+    "apunte_id": "6aa20cc0cfa10fee26aec9a4",
+    "usuario_id": "6aa20c398081fab17c899327",
+    "contenido": "Este apunte me ayudó bastante para entender el tema.",
+    "createdAt": "2026-10-16T22:00:58.096Z",
+    "updatedAt": "2026-10-16T22:00:58.096Z",
+    "__v": 0
+  }
+]
+--- FIN:comentarios ---
+--- INICIO:usuarios ---
+[
+  {
+    "_id": "6aa20c398081fab17c899327",
+    "nombre": "Juan Pérez",
+    "correo": "juan@uniautonoma.edu.co",
+    "password": "123456",
+    "rol": "estudiante",
+    "estado": "activo"
+  },
+  {
+    "_id": "6ad295e46b0e60e723591249",
+    "id_institucional": "EST-2026-001",
+    "email_institucional": "carlos.mendoza@uniautonoma.edu.co",
+    "nombre": "Carlos",
+    "apellido": "Mendoza",
+    "rol": "ESTUDIANTE",
+    "estado": "ACTIVO",
+    "createdAt": "2026-10-16T21:23:48.188Z",
+    "updatedAt": "2026-10-16T21:23:48.188Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ad297ed39d0ea59d2d632cc",
+    "id_institucional": "EST-2026-002",
+    "email_institucional": "maria.gomez@uniautonoma.edu.co",
+    "nombre": "María",
+    "apellido": "Gómez",
+    "rol": "ESTUDIANTE",
+    "estado": "ACTIVO",
+    "createdAt": "2026-10-16T21:32:29.019Z",
+    "updatedAt": "2026-10-16T21:32:29.019Z",
+    "__v": 0
+  }
+]
+--- FIN:usuarios ---
+--- INICIO:archivos ---
+[
+  {
+    "_id": "6aa20d65cfa10fee26aec9a5",
+    "apunte_id": "6aa20cc0cfa10fee26aec9a4",
+    "nombre": "introduccion-programacion.pdf",
+    "tipo": "pdf",
+    "url": "/archivos/introduccion-programacion.pdf",
+    "tamaño": 250000
+  }
+]
+--- FIN:archivos ---
+--- INICIO:programas ---
+[
+  {
+    "_id": "6aa20990cfa10fee26aec9a0",
+    "nombre": "Ingeniería de Sistemas",
+    "estado": "activo"
+  }
+]
+--- FIN:programas ---
+banco_apuntes
+
+
