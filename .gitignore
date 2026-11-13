@@ -2,3 +2,5 @@ node_modules
 uploads/*
 !uploads/.gitkeep
 dist
+.env 
+frontend/.env 
